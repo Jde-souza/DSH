@@ -1,3 +1,8 @@
+body {
+    background-color: #010a1c;
+    color: aliceblue;
+}
+
 .container {
     width: 100%;
     height: 700px;
@@ -29,6 +34,8 @@
     font-size: 50px;
     color: aliceblue;
 }
+
+/*BUTTON*/
 
 .dsh--button {
 
@@ -93,7 +100,7 @@
 .main {
     width: auto;
     height: auto;
-    margin: 50px;
+    margin: auto;
 }
 
 .main--article {
@@ -115,6 +122,9 @@
 
 .article--p {
 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-block-end: 10px;
     font-size: 30;
 
 }
@@ -122,6 +132,55 @@
 .clearfix {
     float: none;
     clear: both;
+}
+
+.marcas {
+    width: 100%;
+    height: 700px;
+    background-image:
+        linear-gradient(to bottom, rgba(12, 161, 202, 0.583), rgba(11, 85, 142, 0.706)),
+        url(/asset/img/montevideo\ marcas.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.marcas--title {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.img--marcas {
+    display: block;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 200px;
+    padding: 20px;
+}
+
+.img--antel {
+    display: block;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 400px;
+    padding: 20px;
+}
+
+.img--im {
+    display: block;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 140px;
+    padding: 20px;
 }
 
 footer {
@@ -140,7 +199,7 @@ footer {
 
     .container {
         width: auto;
-        height: 450px;
+        height: 350px;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -247,16 +306,29 @@ footer {
     }
 
     .article--title {
-        padding: 20px;
+        padding: 10px;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         color: rgba(3, 127, 203);
     }
 
     .article--p {
 
-        font-size: 20;
+        padding-left: 20px;
+        padding-right: 20PX;
+        font-size: 15;
+        text-align: justify;
 
+    }
+
+    .img--marcas {
+        display: block;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+        width: 100px;
+        padding: 10px;
     }
 
     .clearfix {
