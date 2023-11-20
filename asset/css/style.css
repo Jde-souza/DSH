@@ -154,9 +154,9 @@ body {
 }
 
 .img--marcas {
-    display: block;
+    display: flex;
     float: left;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 100px;
     width: 200px;
@@ -164,9 +164,9 @@ body {
 }
 
 .img--antel {
-    display: block;
+    display: flex;
     float: left;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 100px;
     width: 400px;
@@ -174,12 +174,32 @@ body {
 }
 
 .img--im {
-    display: block;
+    display: flex;
     float: left;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 100px;
     width: 140px;
+    padding: 20px;
+}
+
+.img--Radisson{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    width: 250px;
+    padding: 20px;
+}
+
+.img--sodre{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    width: 250px;
     padding: 20px;
 }
 
@@ -225,7 +245,7 @@ footer {
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         color: aliceblue;
     }
 
@@ -292,7 +312,7 @@ footer {
     .main {
         width: auto;
         height: auto;
-        margin: 15px;
+        margin: auto;
     }
 
     .main--article {
@@ -316,20 +336,68 @@ footer {
 
         padding-left: 20px;
         padding-right: 20PX;
-        font-size: 15;
+        font-size: 5;
         text-align: justify;
 
     }
 
-    .img--marcas {
-        display: block;
-        float: left;
-        justify-content: center;
-        align-items: center;
-        margin: 30px;
-        width: 100px;
-        padding: 10px;
+    .marcas {
+        width: 100%;
+        height: 750px;
+        background-image:
+            linear-gradient(to bottom, rgba(12, 161, 202, 0.583), rgba(11, 85, 142, 0.706)),
+            url(/asset/img/montevideo\ marcas.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
+
+    .img--marcas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+        width: 150px;
+    }
+
+.img--antel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    height: 150px;
+}
+
+.img--im{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    margin-left: 120px;
+    height: 100px;
+}
+
+.img--Radisson{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    margin-left: 70px;
+    height: 100px;
+}
+
+.img--sodre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    margin-left: 70px;
+    height: 100px;
+}
 
     .clearfix {
         float: none;
