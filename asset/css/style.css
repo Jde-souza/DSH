@@ -1,7 +1,10 @@
+/* GENERALES */
+
 body {
     background-color: #010a1c;
     color: aliceblue;
 }
+/* ENCAVEZADO */
 
 .container {
     width: 100%;
@@ -97,11 +100,15 @@ body {
     top: 2px;
 }
 
+/* MAIN */
+
 .main {
     width: auto;
     height: auto;
     margin: auto;
 }
+
+/* ARTICULOS */
 
 .main--article {
     float: left;
@@ -117,7 +124,7 @@ body {
     padding: 50px;
     text-align: center;
     font-size: 40px;
-    color: rgba(3, 127, 203);
+    color: rgb(3, 171, 255);
 }
 
 .article--p {
@@ -125,7 +132,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     padding-block-end: 10px;
-    font-size: 30;
+    font-size: 25;
 
 }
 
@@ -149,6 +156,8 @@ body {
 .marcas--title {
     padding: 50px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
 }
@@ -158,9 +167,9 @@ body {
     float: left;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
+    margin: 100px auto;
     width: 200px;
-    padding: 20px;
+    padding: 20px auto;
 }
 
 .img--antel {
@@ -168,9 +177,9 @@ body {
     float: left;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
+    margin: 100px auto;
     width: 400px;
-    padding: 20px;
+    padding: 20px auto;
 }
 
 .img--im {
@@ -178,9 +187,9 @@ body {
     float: left;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
+    margin: 100px auto;
     width: 140px;
-    padding: 20px;
+    padding: 20px auto;
 }
 
 .img--Radisson{
@@ -188,9 +197,9 @@ body {
     float: left;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
+    margin: 100px auto;
     width: 250px;
-    padding: 20px;
+    padding: 20px auto;
 }
 
 .img--sodre{
@@ -414,3 +423,4 @@ footer {
         font-size: 15px;
     }
 }
+
