@@ -21,14 +21,14 @@ body {
     background-size: cover;
 }
 
-.title--dsh {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 200px;
-    color: aliceblue;
-    text-shadow: 2px 5px 10px #262323;
-}
+.logo_dsh {
+  width: 30%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-top: 5%;
+  }
 
 .dsh--p {
     align-items: center;
@@ -57,6 +57,7 @@ body {
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
     background: #d90429;
     z-index: 1;
+    margin-top: 1%;
 }
 
 .css-button-shadow-border-sliding--red {
@@ -423,4 +424,5 @@ footer {
         font-size: 15px;
     }
 }
+
 
