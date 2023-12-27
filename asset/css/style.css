@@ -4,6 +4,37 @@ body {
     background-color: #010a1c;
     color: aliceblue;
 }
+
+/*MENÚ*/
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 80%);
+    padding: 10px;
+    position: fixed;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul li{
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.nav-menu ul li a{
+    color: #1560BD;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.logo-nav{
+    width: 5%;
+}
+
 /* ENCAVEZADO */
 
 .container {
@@ -249,11 +280,13 @@ form {
 .form-txt {
     margin-bottom: 16px;
     display: flex;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .form-a {
-    color: dodgerblue;
+    display: inline-block;
+    margin-inline-start: 10px;
+    color: deepskyblue;
     text-decoration: none;
     font-size: 16px;
     margin-bottom: 25px;
@@ -292,6 +325,7 @@ textarea {
     background-color: deepskyblue;
     color: aliceblue;
     font-size: 17px;
+    font-weight: bold;
     cursor: pointer;
     transition: 500ms
 }
@@ -300,6 +334,7 @@ textarea {
     background-color: rgba(240, 248, 255, 0);
     border: 3px solid deepskyblue;
     font-size: 17px;
+    font-weight: bold;
     border-radius: 5px;
     transition: 500ms
 }
