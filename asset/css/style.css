@@ -154,6 +154,8 @@ body {
 
 }
 
+/* MARCAS */
+
 .marcas--title {
     padding: 50px;
     text-align: center;
@@ -211,6 +213,88 @@ body {
     margin: 100px;
     width: 250px;
     padding: 20px;
+}
+
+/*FORMULARIO DE CONTACTO*/
+
+.sec-form{
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    display: flex;
+    background-image: url(/asset/img/fondo-form.jpeg);
+}
+
+form {
+    height: 500;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 0 20 rgba(0, 0, 0, 2);
+    border-radius: 20px;
+    background-color: rgba(0, 52, 97, 0.56);
+    width: 500px;
+
+}
+
+.form-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.form-txt {
+    margin-bottom: 16px;
+}
+
+.form-a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.form-a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 15px;
+}
+
+input,
+textarea {
+    background-color: rgb(224, 231, 240);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+:focus {
+    outline: 1px solid rgb(0, 128, 255);
+}
+
+.btn-form {
+    background-color: deepskyblue;
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn-form:hover {
+    background-color: rgba(240, 248, 255, 0);
+    border: 3px solid deepskyblue;
+    font-size: 17px;
+    border-radius: 5px;
 }
 
 footer {
