@@ -248,6 +248,8 @@ form {
 
 .form-txt {
     margin-bottom: 16px;
+    display: flex;
+    margin-left: 80px;
 }
 
 .form-a {
@@ -291,6 +293,7 @@ textarea {
     color: aliceblue;
     font-size: 17px;
     cursor: pointer;
+    transition: 500ms
 }
 
 .btn-form:hover {
@@ -298,6 +301,7 @@ textarea {
     border: 3px solid deepskyblue;
     font-size: 17px;
     border-radius: 5px;
+    transition: 500ms
 }
 
 footer {
