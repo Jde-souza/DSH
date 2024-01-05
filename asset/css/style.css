@@ -350,6 +350,8 @@ textarea {
     transition: 500ms
 }
 
+/*Footer*/
+
 footer {
     display: flex;
     padding: 50px;
@@ -360,15 +362,25 @@ footer {
     font-size: 15px;
 }
 
+/*Boton Whatsapp*/
+
 .btn-whatsapp{
     position: fixed;
-    top: 85%;
-    margin-right: -1900px;
+    width: 45px;
+    right: 45;
+    line-height: 85px;
+    border-radius: 50px;
+    bottom: 85px;
+    right: 30px;
+    box-shadow: 0px 1px 10px black;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .img-whatsapp{
-    width: 15%;
-    ;
+    width: 45px;
 }
 
 /*RESPONSIVE*/
