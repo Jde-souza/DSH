@@ -213,9 +213,13 @@ a:hover{
     border: 1px solid rgb(0, 217, 255);
     padding: 20px;
 }
+.caracteristicas-item-instalacion{
+    border: 1px solid wheat;
+    background-image: url(/asset/img/instalacion\ 01.jpeg);
+}
 .caracteristicas-h4{
     border: 1px solid rgb(0, 255, 8);
-    padding: 20px;
+    
 }
 
 .caracteristicas-p{
