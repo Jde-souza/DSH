@@ -3,6 +3,7 @@
 :root{
     --blanco: aliceblue;
     --fondo: #010a1c;
+    --fondo-alfa: #010a1cc7;
     --color-dsh: #1560BD;
     --color-dsh-alfa: hsla(213, 80%, 41%, 0.514);
     --color-fondo-menu: rgba(255, 255, 255, 80%);
@@ -201,6 +202,25 @@ a:hover{
     padding-block-end: 10px;
     font-size: 25;
 
+}
+
+.caracteristicas-service{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.caracteristicas-item{
+    border: 1px solid rgb(0, 217, 255);
+    padding: 20px;
+}
+.caracteristicas-h4{
+    border: 1px solid rgb(0, 255, 8);
+    padding: 20px;
+}
+
+.caracteristicas-p{
+    border: 1px solid rgb(174, 0, 255);
+    padding: 20px;
 }
 
 .clearfix {
