@@ -36,7 +36,7 @@ a:hover {
     /*MENÚ*/
 
     .nav-menu {
-        display: flex;
+        display: none;
         justify-content: space-between;
         background-color: var(--color-fondo-menu);
         padding: 10px;
@@ -92,6 +92,7 @@ a:hover {
     .logo_dsh {
         width: 40%;
         height: auto;
+        margin-top: 50px;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -247,7 +248,7 @@ a:hover {
         justify-content: center;
         align-items: center;
         width: 90%;
-        height: 380px;
+        height: 400px;
         margin: 20px 20px auto;
         margin-left: 20px;
         padding: 10px;
@@ -436,5 +437,21 @@ a:hover {
 
     /*Boton Whatsapp*/
 
-    
+    .btn-whatsapp {
+        position: fixed;
+        width: 45px;
+        line-height: 40px;
+        border-radius: 50px;
+        bottom: 40px;
+        right: 30px;
+        box-shadow: 0px 1px 10px black;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .img-whatsapp {
+        width: 45px;
+    }
 }
