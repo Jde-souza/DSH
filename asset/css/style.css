@@ -85,11 +85,11 @@ a:hover {
 /*LOGO DSH HEADER*/
 
 .logo_dsh {
+    display: inline-block;
     width: 20%;
     height: auto;
-    text-align: center;
     justify-content: center;
-    display: inline-block;
+    text-align: center;
     margin-top: 5%;
 }
 
@@ -170,7 +170,7 @@ a:hover {
 
 /* MAIN */
 
-.main--presentacion{
+.main--presentacion {
     border: 1px solid violet;
     width: 100%;
     height: 600px;
@@ -212,49 +212,53 @@ a:hover {
 
 /* SERVICIOS*/
 
-.servicios-cajas{
+.servicios-cajas {
     border: 1px solid wheat;
     width: 100%;
     height: 1000px;
-    background-color: var(--color-fondo-menu);
+    background-image:
+        linear-gradient(to bottom, var(--color-enlaces-alfa), var(--color-dsh-alfa)),
+        url(/asset/img/background/_5d6f2d8e-3612-41ee-b01e-cc9c29740ee5.jpeg);
 }
 
-.caracteristicas--title{
-    border: 1px solid blue;
+.caracteristicas--title {
     width: 100%;
     padding: 30px;
     text-align: center;
     font-size: 40px;
-    color: var(--fondo);
+    color: var(--blanco);
 }
 
 .caracteristicas-h4 {
-    border: 1px solid rgb(0, 255, 8);
+    margin-top: 20px;
     text-align: center;
     font-size: 25px;
-    color: var(--color-dsh);
+    color: var(--color-enlaces);
 
 }
 
 .caracteristicas-p {
-    border: 1px solid rgb(174, 0, 255);
-    padding: 10px;
-    color: var(--fondo);
+    padding: 15px;
+    color: var(--blanco);
 }
 
-.caracteristicas-item{
-    border: 1px solid red;
+.caracteristicas-item {
     display: block;
-    flex-direction: column;
-    float: inline-end;
-    align-items: center;
+    float: left;
     justify-content: center;
-    width: 40%;
+    align-items: center;
+    width: 45%;
     height: 250px;
-    padding-bottom: 10px;
-    margin: 20px;
-    background-color: var(--blanco);
-    box-shadow: 0px 5px 20px var(--fondo-alfa)
+    margin: 20px 20px auto;
+    margin-left: 45px;
+    padding: 10px;
+    background-color: var(--fondo);
+    box-shadow: 0px 5px 20px var(--fondo-alfa);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .clearfix {
