@@ -259,6 +259,8 @@ a:hover {
     -o-border-radius: 10px;
 }
 
+/* ELIMINA FLOTADOS */
+
 .clearfix {
     float: none;
     clear: both;
