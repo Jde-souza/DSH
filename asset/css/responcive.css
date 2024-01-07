@@ -215,7 +215,7 @@ a:hover {
 
     .servicios-cajas {
         width: 100%;
-        height: 2600px;
+        height: 2700px;
         background-image:
             linear-gradient(to bottom, var(--color-enlaces-alfa), var(--color-dsh-alfa)),
             url(/asset/img/background/_5d6f2d8e-3612-41ee-b01e-cc9c29740ee5.jpeg);
