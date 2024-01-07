@@ -346,7 +346,7 @@ a:hover {
     }
 
     form {
-        width: 20%;
+        width: 100%;
         height: 500;
         display: block;
         align-items: center;
@@ -365,12 +365,6 @@ a:hover {
         font-size: 40px;
     }
 
-    .form-txt {
-        margin-bottom: 16px;
-        display: flex;
-        margin-left: 70px;
-    }
-
     .form-a {
         display: inline-block;
         margin-inline-start: 10px;
@@ -387,7 +381,7 @@ a:hover {
     .input-group {
         display: flex;
         flex-direction: column;
-        padding: 30px;
+        padding: 5px;
         font-size: 15px;
     }
 
