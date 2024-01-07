@@ -1,3 +1,18 @@
+/* VARIABLES */
+
+:root {
+    --blanco: aliceblue;
+    --fondo: #010a1c;
+    --fondo-alfa: #010a1cc7;
+    --color-dsh: #1560BD;
+    --color-dsh-alfa: #1560bc83;
+    --color-fondo-menu: #ffffffcc;
+    --fondo-formulario: #0034618f;
+    --color-enlaces: deepskyblue;
+    --color-enlaces-alfa: #00bfff80;
+
+}
+
 /*RESPONSIVE*/
 
 @media(max-width: 600px) {
@@ -114,7 +129,7 @@
         padding: 10px;
         text-align: center;
         font-size: 20px;
-        color: rgba(3, 127, 203);
+        color: var(--color-enlaces);
     }
 
     .article--p {
@@ -193,7 +208,7 @@
         display: flex;
         padding: 50px;
         justify-content: center;
-        background-color: rgb(0, 18, 29);
+        background-color: var(--fondo);
         color: #fff;
         text-align: center;
         font-size: 15px;
