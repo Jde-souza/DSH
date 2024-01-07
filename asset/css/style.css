@@ -434,14 +434,14 @@ textarea {
     transition: 500ms
 }
 
-/*Footer*/
+
 
 footer {
     display: flex;
     padding: 50px;
     justify-content: center;
     background-color: rgb(0, 18, 29);
-    color: #fff;
+    color: var(--blanco);
     text-align: center;
     font-size: 15px;
 }
